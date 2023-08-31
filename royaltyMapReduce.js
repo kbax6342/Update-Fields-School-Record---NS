@@ -226,29 +226,7 @@ define(['N/currentRecord', 'N/record', 'N/search', 'N/runtime'],
                         });
                     log.debug("Record", "This record was updated: " + id)
 
-                    //     const inventoryRecord = record.load({
-                    //         type: record.Type.INVENTORY_ITEM,
-                    //         id: listID.id
-                    //     })
-                    //
-                    //    var hwr =   inventoryRecord.getValue({
-                    //       fieldId: 'custitem_lf_hdwr_roy_new'
-                    //     })
-                    //     log.debug("Headwear value Old", hwr)
-                    //
-                    //     inventoryRecord.setValue({
-                    //         fieldId: 'custitem_lf_hdwr_roy_new',
-                    //         value: headwearRoy
-                    //     })
-                    //
-                    //     inventoryRecord.save()
-                    //
-                    //     var hwr2 = inventoryRecord.getValue({
-                    //         fieldId: 'custitem_lf_hdwr_roy_new'
-                    //     })
-                    // log.debug("Headwear value New", hwr2)
-
-
+                  
 
 
                 }
